@@ -50,6 +50,9 @@
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
   },
+  "dependencies": {
+    "lunar-typescript": "^1.7.5"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^2.23.0",
     "@antfu/ni": "^0.22.0",
@@ -72,8 +75,5 @@
   },
   "lint-staged": {
     "*": "eslint --fix"
-  },
-  "dependencies": {
-    "lunar-typescript": "^1.7.5"
   }
 }

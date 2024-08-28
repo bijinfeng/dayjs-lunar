@@ -17,14 +17,14 @@ npm i dayjs-lunar
 ## Usage
 
 ```javascript
-import dayjs from "dayjs";
-import lunar from 'dayjs-lunar';
+import dayjs from 'dayjs'
+import lunar from 'dayjs-lunar'
 
-const day = dayjs("2010-10-20");
+const day = dayjs('2010-10-20')
 
-console.log(day.lunar()); // "二〇一〇年九月十三"
-console.log(day.lunar("YYYY-MM-DD")); // "2010-09-13"
-console.log(day.lunar("年月日")); // "二〇一〇年九月十三"
+console.log(day.lunar()) // "二〇一〇年九月十三"
+console.log(day.lunar('YYYY-MM-DD')) // "2010-09-13"
+console.log(day.lunar('年月日')) // "二〇一〇年九月十三"
 ```
 
 ## License
