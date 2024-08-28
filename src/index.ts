@@ -1,11 +1,5 @@
-import { type PluginFunc } from 'dayjs';
+import type { PluginFunc } from 'dayjs';
 import { Lunar } from 'lunar-typescript';
-
-declare module 'dayjs' {
-  interface Dayjs {
-    lunar(template?: string): string
-  }
-}
 
 const padStart = (string: string | number, length: number, pad: string) => {
   const s = String(string)
