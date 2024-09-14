@@ -25,8 +25,8 @@
     },
     "./package.json": "./package.json",
     "./esm": {
-      "import": "./dist/index.mjs",
-      "types": "./typings/index.d.mts"
+      "types": "./typings/index.d.mts",
+      "import": "./dist/index.mjs"
     }
   },
   "main": "./dist/index.cjs",
