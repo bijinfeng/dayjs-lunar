@@ -19,22 +19,19 @@
   "sideEffects": false,
   "exports": {
     ".": {
-      "types": "./typings/index.d.ts",
+      "types": "./typings/index.d.cts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.cjs"
+    },
+    "./package.json": "./package.json",
+    "./esm": {
+      "import": "./dist/index.mjs",
+      "types": "./typings/index.d.mts"
     }
   },
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
-  "types": "./typings/index.d.ts",
-  "typesVersions": {
-    "*": {
-      "*": [
-        "./typings/*",
-        "./typings/index.d.ts"
-      ]
-    }
-  },
+  "types": "./typings/index.d.cts",
   "files": [
     "dist",
     "typings"
