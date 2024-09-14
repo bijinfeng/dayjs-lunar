@@ -1,7 +1,7 @@
 {
   "name": "dayjs-lunar",
   "type": "module",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "packageManager": "pnpm@9.5.0",
   "description": "dayjs-lunar is a dayjs plugin to support chinese lunar",
   "author": "bijinfeng <bijinfeng1016@gmail.com>",
